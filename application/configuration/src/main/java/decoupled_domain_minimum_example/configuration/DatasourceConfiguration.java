@@ -1,4 +1,4 @@
-package decoupled_domain_minimum_example;
+package decoupled_domain_minimum_example.configuration;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

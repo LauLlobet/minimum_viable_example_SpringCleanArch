@@ -31,7 +31,7 @@ import javax.sql.DataSource;
 import java.io.IOException;
 
 @Configuration
-public class DatasourceConfiguration {
+public class decoupled_domain_minimum_example.configuration.DatasourceConfiguration {
 
     private static final String SCHEMA_INITIALISATION_SCRIPT = "h2-schema.sql";
 

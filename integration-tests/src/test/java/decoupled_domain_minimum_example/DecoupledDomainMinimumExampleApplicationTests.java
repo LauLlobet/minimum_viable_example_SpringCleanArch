@@ -2,14 +2,20 @@ package decoupled_domain_minimum_example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.FilterType;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import static org.hamcrest.CoreMatchers.is;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @RunWith(SpringRunner.class)
-@SpringBootTest
+@Configuration
+@EnableAutoConfiguration
+@ComponentScan(basePackages = {"decoupled_domain_minimum_example.configuration"})
 public class DecoupledDomainMinimumExampleApplicationTests {
 
 	@Test
