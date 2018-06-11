@@ -1,4 +1,4 @@
-package com.codurance.decoupled_domain_minimum_example;
+package decoupled_domain_minimum_example;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

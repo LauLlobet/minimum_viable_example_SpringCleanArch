@@ -6,7 +6,10 @@
 	<groupId>com.codurance</groupId>
 	<artifactId>decoupled_domain_minimum_example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>jar</packaging>
+    <modules>
+        <module>application</module>
+    </modules>
+    <packaging>pom</packaging>
 
 	<name>decoupled_domain_minimum_example</name>
 	<description>Demo project for Spring Boot</description>
