@@ -8,7 +8,6 @@
 	<version>0.0.1-SNAPSHOT</version>
     <modules>
         <module>application</module>
-        <module>configuration-plus-acceptance-tests</module>
         <module>acceptance-plus-configuration-tests</module>
         <module>integration-tests</module>
     </modules>
