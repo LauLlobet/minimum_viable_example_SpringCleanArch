@@ -13,7 +13,7 @@ public class Greeter {
         this.name = name;
     }
 
-    public String sayHi() {
-        return "Hi! I'm "+name;
+    public String sayHi(String greeted) {
+        return "I'm "+name+", hi "+greeted;
     }
 }

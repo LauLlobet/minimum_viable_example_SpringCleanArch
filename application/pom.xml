@@ -15,7 +15,17 @@
         <module>configuration</module>
         <module>core</module>
         <module>repositories</module>
+        <module>entrypoints</module>
+        <module>services</module>
     </modules>
+    <dependencies>
+        <dependency>
+            <groupId>com.codurance</groupId>
+            <artifactId>core</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
 
 
 </project>

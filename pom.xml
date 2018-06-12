@@ -10,6 +10,7 @@
         <module>application</module>
         <module>acceptance-plus-configuration-tests</module>
         <module>integration-tests</module>
+        <module>dipInterfaces</module>
     </modules>
     <packaging>pom</packaging>
 

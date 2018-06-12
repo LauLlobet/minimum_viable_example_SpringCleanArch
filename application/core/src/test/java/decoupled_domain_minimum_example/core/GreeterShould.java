@@ -1,6 +1,5 @@
 package decoupled_domain_minimum_example.core;
 
-import decoupled_domain_minimum_example.services.SayHiService;
 import org.junit.Test;
 
 import static org.hamcrest.Matchers.is;
@@ -11,6 +10,6 @@ public class GreeterShould {
     public void
     say_hi_as_default_greeter() {
         Greeter greeter = new Greeter("DefaultGreeter");
-        assertThat(greeter.sayHi(),is("Hi! I'm DefaultGreeter"));
+        assertThat(greeter.sayHi("John"),is("I'm DefaultGreeter, hi John"));
     }
 }
