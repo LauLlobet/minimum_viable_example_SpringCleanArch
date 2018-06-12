@@ -1,7 +1,7 @@
 package decoupled_domain_minimum_example.integration;
 
-import decoupled_domain_minimum_example.configuration.RepositoryProviderConfiguration;
 import decoupled_domain_minimum_example.configuration.DataBaseConfiguration;
+import decoupled_domain_minimum_example.configuration.RepositoryProviderConfiguration;
 import decoupled_domain_minimum_example.core.Greeter;
 import decoupled_domain_minimum_example.repositories.GreeterRepository;
 import org.junit.Test;

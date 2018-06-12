@@ -12,4 +12,8 @@ public class Greeter {
 
         this.name = name;
     }
+
+    public String sayHi() {
+        return "Hi! I'm "+name;
+    }
 }

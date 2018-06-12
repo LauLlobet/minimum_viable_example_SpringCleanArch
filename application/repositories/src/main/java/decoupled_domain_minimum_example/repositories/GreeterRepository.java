@@ -1,6 +1,6 @@
 package decoupled_domain_minimum_example.repositories;
 
-import decoupled_domain_minimum_example.core.Greeter;
+import decoupled_domain_minimum_example.core.*;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 public class GreeterRepository {
