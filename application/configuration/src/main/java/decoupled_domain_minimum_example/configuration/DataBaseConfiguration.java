@@ -11,15 +11,15 @@ import org.springframework.jdbc.datasource.embedded.EmbeddedDatabaseType;
 import javax.sql.DataSource;
 
 @Configuration
-public class DatasourceConfiguration {
+public class DataBaseConfiguration {
 
-    private static final String SCHEMA_INITIALISATION_SCRIPT = "schema.sql";
 
     @Bean
     public DataSource dataSource() {
         EmbeddedDatabaseBuilder builder = new EmbeddedDatabaseBuilder();
         EmbeddedDatabase db = builder
                 .setType(EmbeddedDatabaseType.HSQL)
+                .addScript("mve.sql")
                 .build();
         return db;
     }
