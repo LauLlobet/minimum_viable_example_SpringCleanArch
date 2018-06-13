@@ -4,16 +4,16 @@ Done following this [link](https://www.slideshare.net/mattiabattiston/real-life-
 
 ### With the following goals:
 #### Hard Skills Goals:
-1.1 Learn Maven Multi Module : done
-1.2 Learn SpringBoot : done
+· Learn Maven Multi Module : done
+· Learn SpringBoot : done
 #### Skills goals:
-2.1 Learn Clean Architechture : done
-2.2 See if original solution had overkill testing
-   2.2.1 in my opinion acceptance e2e had a duplication on the same purpose = overkill  
-   2.2.2 testing the framework ( an Http would call a controller) is redundant = overkill    
+· Learn Clean Architechture : done
+· See if original solution had overkill testing
+    · in my opinion acceptance e2e had a duplication on the same purpose = overkill  
+    · testing the framework ( an Http would call a controller) is redundant = overkill    
 ### Impact goals:
-3.1 Have a seed from where to grow a personal project
-3.2 Provide a Maven version of Mattias approach
+· Have a seed from where to grow a personal project
+· Provide a Maven version of Mattias approach
 
 ## Found problems:
 I've found that maven prevention on circular dependecies prevented me to have 
