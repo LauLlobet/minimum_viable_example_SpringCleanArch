@@ -20,11 +20,11 @@ Done following this [link](https://www.slideshare.net/mattiabattiston/real-life-
 ## Found problems:
 I've found that maven prevention on circular dependecies prevented me to have 
 
-   Greeter <---- GreetUseCase  
-      ^            |               CORE MAVEN MODULE   
-   --- \ --------- | -------------------------------------------> CIRCULAR DEPENDECY  
-        \          v               REPOSITORIES MAVEN MODULE  
-         \ GreeterRepo  
+       Greeter <---- GreetUseCase  
+          ^            |               CORE MAVEN MODULE   
+       --- \ --------- | -------------------------------------------> CIRCULAR DEPENDECY  
+            \          v               REPOSITORIES MAVEN MODULE  
+             \ GreeterRepo  
 
 That forced me to have a Services Module
 
