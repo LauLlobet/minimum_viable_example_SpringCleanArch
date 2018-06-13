@@ -8,6 +8,7 @@ Done following this [link](https://www.slideshare.net/mattiabattiston/real-life-
 · Learn SpringBoot : done
 #### Skills goals:
 · Learn Clean Architechture : done
+
 · See if original solution had overkill testing
 
 · In my opinion acceptance e2e had a duplication on the same purpose = overkill  
