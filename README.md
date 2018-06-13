@@ -28,7 +28,7 @@ That forced me to have a Services Module
 
 ## Resulting set up:
 
-![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/dirty_architecture.png)
+![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/architecture.png)
 
 Postive : It haves core domain not dependant on framework
 Negative : It shouts architechture and not domain at first sight
