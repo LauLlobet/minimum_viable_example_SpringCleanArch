@@ -2,6 +2,8 @@
 
 Done following this [link](https://www.slideshare.net/mattiabattiston/real-life-clean-architecture-61242830)
 
+![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/architecture.png)
+
 ### With the following goals:
 #### Hard Skills Goals:
 * Learn Maven Multi Module : done
@@ -28,7 +30,7 @@ That forced me to have a Services Module
 
 ## Resulting set up:
 
-![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/architecture.png)
+![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/module_schema.png)
 
 Postive : It haves core domain not dependant on framework
 Negative : It shouts architechture and not domain at first sight
