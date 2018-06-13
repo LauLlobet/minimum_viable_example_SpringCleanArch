@@ -32,5 +32,18 @@ That forced me to have a Services Module
 
 ![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/module_schema.png)
 
-Postive : It haves core domain not dependant on framework
-Negative : It shouts architechture and not domain at first sight
+* Postive : It haves core domain not dependant on framework
+* Negative : It shouts architechture and not domain at first sight
+
+## Example of bad architecture:
+
+
+![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/dirty_architecture.png)
+
+
+# MAIN MOTIVATION:
+
+
+![alt text](https://github.com/LauLlobet/minimum_viable_example_SpringCleanArch/raw/master/clean%20architechture%20slides/uncle_bob.png)
+
+
